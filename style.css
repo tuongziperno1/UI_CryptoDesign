@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding-top: 2%;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding-left: 30%;
+}
+.navbar ul li{
+    font-size: small;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+   color: #ec5f20;
+}
+.navbar button {
+    font-size: small;
+    border-radius: 25px;
+    border: none;
+    width: 100px;
+    height: 40px;   
+    background-color: #ec5f20;
+    color: white;
+    cursor: pointer;
+}
+.navbar button:hover{
+    color: #ec5f20;
+    background-color: white;
+}
+section { 
+    display: flex; 
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #119175;
+    height: 607px;
+    width: auto;
+    color: white;
+    justify-content: space-around;
+    /* background: url(img/bgd.png) no-repeat;
+    object-fit: cover; */
+}
+section .banner {
+    padding-top: 150px;
+    width: 60%;
+}
+section .banner .content {
+    padding-bottom: 80px;
+    letter-spacing: 1.2px;
+    line-height: 1.4;
+}
+section .banner .content h1{
+    padding-bottom: 10px;
+    font-size: xx-large;
+    padding-bottom: 43px;
+}
+
+section .banner .content p{
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+section .banner .sum-box{
+    display: flex;
+    justify-content: space-between;
+}
+section .banner .box{  
+    padding: 5px 0;
+    width: 30%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    background: rgba(12, 66, 55, 0.4)  
+}
+section .banner .box ul {
+    list-style: none;
+}
+
+section .banner .box ul li{
+    display: flex;
+    padding: 5px 10px;
+
+}
+section .banner .box ul p{
+    font-weight: 200;
+    
+}
+section .banner .box ul span {
+    font-weight: 700;
+}
+
+section .info{
+    width: 30%;
+    height: auto;
+    padding-top: 120px;
+    justify-content: center;
+    
+}
+section .info .title {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    font-weight: 700;
+    background: rgba(12, 66, 55, 0.4);
+    padding: 10px 0 ;
+    justify-content: center;
+    
+}
+section .info .title p{
+    font-size: x-large;
+    width: auto;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    
+}
+section .info .time {
+    display: flex;
+    justify-content: center;
+    background: rgba(12, 66, 55, 0.4);
+    padding: 15px 0 15px 0;
+    
+}
+section .info .time ion-icon{
+    padding: 0 30px 15px 15px ;
+    width: 60px;
+    height: 60px;
+    color: #ec5f20;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+    
+}
+section .info .time div{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+section .info .time p:first-child{
+    font-size: smaller;
+    opacity: 0.7;
+}
+section .info .time p:last-child{
+    padding-top: 8px;
+    font-size: x-large;
+}
+section .info .btn {
+    display: flex;
+    justify-content: center;
+    background: rgba(12, 66, 55, 0.4);
+    padding: 15px 0 15px 0;
+}
+section .info .btn button {
+    width: 280px;
+    height: 40px;
+    padding: 8px 0 8px 0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #ec5f20;
+    cursor: pointer;
+}
+section .info .btn button:hover{
+    color: #ec5f20;
+    background-color: white;
+}
+section .info .connect {
+    display: flex;
+    justify-content: center;
+    background: rgba(12, 66, 55, 0.4);
+    padding: 35px 0 15px 0;
+    
+}
+section .info .connect p{
+    opacity: 0.7;
+    font-size: smaller;
+}
+
+section .info .icon{
+    justify-content: space-between;
+    display: flex;
+    background: rgba(12, 66, 55, 0.4);
+    padding: 35px 20% 25px 20%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+section .info .icon a:hover{
+    color: #ec5f20;
+    background-color:  rgba(12, 66, 55, 0.9);
+}
+section .info .icon a{ 
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(12, 66, 55, 0.6);
+}
+section .info .icon a ion-icon{
+    color: white;
+    padding: 15px;
+}
+footer{
+    position: relative;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10% 0 10%;
+    background: #ccc;
+    
+}
+footer div{  
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    color: #ec5f20;
+}
+footer div a{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+footer div ion-icon{
+    width: 16px;
+    height: 16px;
+    padding: 8px;
+    border-radius: 50%;
+    /* background-color: #ec5f20;
+    color: white; */
+}
+
+
+footer div:nth-child(1) ion-icon{
+    background-color: #838ea5;
+    color: white;
+}
+footer div:nth-child(1) p{
+    color: #838ea5;
+}
+footer div:nth-child(2) ion-icon{
+    background-color: #ec5f20;
+    color: white;
+}
+footer div:nth-child(3) ion-icon{
+    background-color: #838ea5;
+    color: white;
+}
+footer div:nth-child(3) p{
+    color: #838ea5;
+}
+
+footer div:nth-child(4) ion-icon{
+    background-color: #ec5f20;
+    color: white;
+}
+
+footer div:nth-child(5) ion-icon{
+    background-color: #838ea5;
+    color: white;
+}
+footer div:nth-child(5) p{
+    color: #838ea5;
+}
+
+footer div p{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: smaller  ;
+}
+
